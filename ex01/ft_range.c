@@ -6,7 +6,7 @@
 /*   By: luebina <luebina@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/20 18:32:00 by luebina           #+#    #+#             */
-/*   Updated: 2023/08/21 03:46:34 by luebina          ###   ########.fr       */
+/*   Updated: 2023/08/21 13:01:13 by luebina          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,16 @@
 void	create_array(int min, int max, int *malloc_array_pointer)
 {
 	int	i;
+	int	range;
 
 	i = 0;
-	while (min < max)
+	range = max - min;
+	while (i < range)
 	{
 		malloc_array_pointer[i] = min;
 		min++;
 		i++;
 	}
-	malloc_array_pointer[i] = 0;
 }
 
 int	*ft_range(int min, int max)
@@ -42,13 +43,16 @@ int	*ft_range(int min, int max)
 // {
 // 	int	*arr;
 // 	int	*temp;
+// 	int	i;
 
-// 	arr = ft_range(3, 5);
+// 	arr = ft_range(1, 4);
 // 	temp = arr;
-// 	while (*temp)
+// 	i = 0;
+// 	while (i < 4 - 1)
 // 	{
-// 		printf("%d ", *temp);
-//         temp ++;
+// 		printf("%d ", temp[i]);
+//         i++;
 // 	}
 // 	free(arr);
+// 	return (0);
 // }

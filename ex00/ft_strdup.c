@@ -6,7 +6,7 @@
 /*   By: luebina <luebina@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/20 17:25:28 by luebina           #+#    #+#             */
-/*   Updated: 2023/08/20 18:31:40 by luebina          ###   ########.fr       */
+/*   Updated: 2023/08/21 12:23:45 by luebina          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ char	*ft_strdup(char *str)
 // {
 // 	char	*abc;
 
-// 	abc = ft_strdup("abc");
+// 	abc = ft_strdup("lahsdfljasdfajfaklsjflk;aj234235236--+==!@#$^&*");
 // 	printf("%s", abc);
 // 	free(abc);
 // }

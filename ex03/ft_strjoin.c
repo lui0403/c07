@@ -6,7 +6,7 @@
 /*   By: luebina <luebina@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/21 02:01:29 by luebina           #+#    #+#             */
-/*   Updated: 2023/08/21 03:42:09 by luebina          ###   ########.fr       */
+/*   Updated: 2023/08/21 13:07:20 by luebina          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,10 +60,10 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 
 // #include<stdio.h>
 // int main() {
-//     char strs[] = "abcd";
+//     char strs[] = "asfdasdf";
 // 	char *ptr = strs;
 //     char sep[] = "-|-";
-//     char *result = ft_strjoin(4, &ptr, sep);
+//     char *result = ft_strjoin(8, &ptr, sep);
 
 //     if (result != NULL) {
 //         printf("Concatenated String: %s\n", result);

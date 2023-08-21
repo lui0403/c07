@@ -6,7 +6,7 @@
 /*   By: luebina <luebina@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/21 01:12:02 by luebina           #+#    #+#             */
-/*   Updated: 2023/08/21 03:45:48 by luebina          ###   ########.fr       */
+/*   Updated: 2023/08/21 13:02:39 by luebina          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 // 	printf("%d\n", i);
 // 	while (*range)
 // 	{
-// 		printf("%d", *range);
+// 		printf("%d | ", *range);
 // 		range++;
 // 	}
 // 	return (0);
