@@ -5,20 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: luebina <luebina@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/21 04:07:59 by luebina           #+#    #+#             */
-/*   Updated: 2023/08/21 04:10:47 by luebina          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: luebina <luebina@student.42.fr>            +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/16 16:57:54 by luebina           #+#    #+#             */
-/*   Updated: 2023/08/19 12:49:51 by luebina          ###   ########.fr       */
+/*   Created: 2023/08/21 03:37:28 by luebina           #+#    #+#             */
+/*   Updated: 2023/08/21 11:41:02 by luebina          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +56,7 @@ int	int_to_str(int num, char *str)
 	return (i);
 }
 
-void	ft_putnbr(int num)
+void	ft_convert_base(int num)
 {
 	char	str[12];
 	int		length;
@@ -87,8 +75,8 @@ void	ft_putnbr(int num)
 	write(1, str, length);
 }
 
-int	main(void)
-{
-	ft_putnbr(-2147483648);
-	return (0);
-}
+// int	main(void)
+// {
+// 	ft_putnbr(-2147483648);
+// 	return (0);
+// }
